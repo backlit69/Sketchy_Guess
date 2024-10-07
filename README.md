@@ -1,32 +1,40 @@
-﻿# HardlySlept-464
+# **Sketchy Guess**
 
- ## Introduction
+**Sketchy Guess** is an engaging online multiplayer game where players test their drawing and guessing skills in a creative and competitive environment. The game consists of multiple rounds in which players take turns drawing a word, while the other participants attempt to guess what the drawing represents.
 
- ## Features
-- **User Registration:** Users can register their details, including blood type and health-related information.
-- **Geolocation-Based Search:** Recipients can search for donors based on their location and blood type.
-- **Real-Time Notifications:** Donors in the proximity of the recipient get notified in real-time.
-- **Connection Interface:** Allows donors and recipients to connect and communicate seamlessly.
+Each player has a set amount of time to draw a word chosen from three options, and the other players type their guesses into a chat box. The faster a player correctly guesses the word, the more points they earn. The artist also earns points based on how quickly others guess their drawing.
 
-## How to Use
-1. **Register:** Sign up on the app and enter your details, including your blood type and any relevant health information.
-2. **Set Visibility:** Choose your visibility settings to control when you can be contacted.
-3. **Search for Donors:** If you need blood, use the search feature to find donors nearby who match your blood type.
-4. **Receive Notifications:** Donors in your area will be notified of your request.
-5. **Connect:** Once a donor accepts your request, you can connect and arrange the blood donation.
+**Sketchy Guess** offers a simple yet entertaining experience, making it a great way to have fun with friends or meet new people online. The game is accessible through any web browser, and players can create private rooms to play with friends or join public games with players from around the world.
 
-## Tech Used
+With its intuitive interface, **Sketchy Guess** provides endless hours of entertainment and laughter, whether you're an experienced artist or someone who just enjoys a fun game of Pictionary.
+
+## **Features**
+- **Private/Public Rooms:** Play in private rooms using unique room codes or join public rooms.
+- **Chatting:** Players can chat during the game, with feature to block abusive messages and handle chat restrictions.
+- **Game History:** Store previous game data and player history.
+- **Customizable Rounds and Time:** Set the number of rounds,time limits and difficulty levels.
+- **Handle Player Leaves:** Manage player departures without ending the game.
+
+## **How to Use**
+1. **Register/Login:** Sign up or log in to the game by entering your details, including email, password, and name.
+2. **OTP Verification:** Verify your email with an OTP to ensure validity.
+3. **Join Room:** Enter a room using a room code or link to start playing.
+4. **Play:** Participate in drawing and guessing during the game.
+5. **View Results:** Check game results and scores after each round.
+
+## **Tech Used**
 - **Frontend:**
-  - React: For building the user interface.
-  - Expo: For running and testing application.
+  - **React:** For building the user interface.
+  - **Canvas API:** For creating the drawing component used for drawing shapes, text, images, and other objects.
 - **Backend:**
-  - Node.js: For server-side logic.
-  - Express.js: For building the API.
-  - MongoDB: For the database to store user details and requests.
+  - **Node.js:** For server-side logic.
+  - **Express.js:** For building the API.
+  - **WebSocket:** For implementing real-time communication.
+  - **MongoDB:** For storing user gaming details.
 - **Authentication:**
-  - JWT (JSON Web Tokens): For secure user authentication and authorization.
-  - Bcrypt.js: For hashing the password.
-
+  - **JWT (JSON Web Tokens):** For secure user authentication and authorization.
+  - **bcrypt.js:** For hashing passwords.
+  - **Nodemailer:** To send verification otp emails for user registration, ensuring secure and verified user accounts.
 
 
 
